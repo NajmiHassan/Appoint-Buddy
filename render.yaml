@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: callpilot-backend
+    name: appointbuddy-backend
     runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
@@ -14,7 +14,7 @@ services:
         sync: false
 
   - type: web
-    name: callpilot-frontend
+    name: appointbuddy-frontend
     runtime: static
     plan: free
     buildCommand: npm install && npm run build

@@ -1,6 +1,6 @@
-# CallPilot
+# Appoint Buddy
 
-CallPilot is an agentic voice AI receptionist that uses ElevenLabs Conversational AI and tool calling to find and book the best appointment. This repo includes:
+Appoint Buddy is an agentic voice AI receptionist that uses ElevenLabs Conversational AI and tool calling to find and book the best appointment. This repo includes:
 
 - **Backend**: FastAPI service that creates an ElevenLabs agent and exposes tool webhooks.
 - **Frontend**: Lovable-built React UI to start conversations and visualize transcripts/tool calls.
